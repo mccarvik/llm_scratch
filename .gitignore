@@ -1,0 +1,105 @@
+# TensorFlow
+tensorflow/
+*.pb
+*.pbtxt
+*.ckpt
+*.ckpt.*
+*.meta
+*.index
+*.data-00000-of-00001
+
+# PyTorch
+*.pth
+*.pt
+*.safetensors
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Model files and datasets
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+*.csv
+*.tsv
+*.json
+*.xml
+*.txt
+*.zip
+*.tar.gz
+*.rar
+
+# Logs
+*.log
+logs/
+tensorboard_logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# GPU memory dumps
+*.dump
+
+# Specific to this project
+gpt2/
+gpt2-small-124M.pth
+gpt2-medium-355M.pth
+gpt2-large-774M.pth
+gpt2-xl-1558M.pth
+sms_spam_collection/
+sms_spam_collection.zip
