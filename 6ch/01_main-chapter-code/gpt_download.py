@@ -96,7 +96,6 @@ def download_file(url, destination, backup_url=None):
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
 
-
 # Alternative way using `requests`
 """
 def download_file(url, destination):
@@ -155,3 +154,4 @@ def load_gpt2_params_from_tf_ckpt(ckpt_path, settings):
         target_dict[last_key] = variable_array
 
     return params
+
