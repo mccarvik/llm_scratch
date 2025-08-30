@@ -1,3 +1,6 @@
+# env
+/tensorflow_env/
+
 # TensorFlow
 tensorflow/
 *.pb
